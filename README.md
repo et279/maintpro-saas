@@ -32,19 +32,28 @@ Desarrollada con **Next.js + PrimeReact + Tailwind CSS**, MaintPro cubre todo el
 ## 📁 Estructura del repositorio
 
 ```
-sakai-react/
-├── public/               # Recursos públicos
-├── src/
-│   ├── app/              # Rutas y vistas (Next.js App Router)
-│   ├── components/       # Componentes reutilizables
-│   ├── pages/            # Compatibilidad con rutas anteriores
-│   ├── service/          # Servicios (API, Supabase, etc.)
-│   ├── styles/           # Tailwind CSS y estilos globales
-│   └── utils/            # Funciones auxiliares
-├── .env.local            # Variables de entorno
-├── tailwind.config.js    # Configuración Tailwind
-├── next.config.js        # Configuración de Next.js
-└── package.json          # Dependencias y scripts
+maintpro-saas/
+├── (full-page)/              # Full-page demo
+├── app/                      # Rutas y vistas (Next.js App Router)
+├── demo/                     # Demostración de funcionalidades
+├── layout/                   # Layouts y componentes globales
+├── lib/                      # Servicios (API, Supabase, etc.)
+├── public/                   # Recursos públicos
+├── styles/                   # Tailwind CSS y estilos globales
+├── types/                    # Tipos de datos
+├── .editorconfig             # Configuración de editor
+├── .env.example              # Variables de entorno ejemplo
+├── .env.local                # Variables de entorno
+├── .eslintrc.json            # Configuración ESLint
+├── .gitignore                # Archivos ignorados por Git
+├── .prettierrc               # Configuración   Prettier
+├── .prettierignore           # Archivos ignorados por Prettier
+├── changelog.md              # Cambios realizados
+├── license.md                # Licencia  de
+├── README.md                 # Documentación
+├── next.config.js            # Configuración de Next.js
+├── package.json              # Dependencias y scripts
+├── package-lock.json         # Lock de dependencias
 ```
 
 ## ✅ MVP – Funcionalidades obligatorias
@@ -61,8 +70,8 @@ sakai-react/
 ## 🧪 Cómo iniciar el proyecto
 
 ```bash
-git clone https://github.com/et279/maintpro-sas.git
-cd maintpro-sas
+git clone https://github.com/et279/maintpro-saas.git
+cd maintpro-saas
 npm install
 npm run dev
 ```
